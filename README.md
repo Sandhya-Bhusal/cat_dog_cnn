@@ -22,6 +22,8 @@ The dataset contains two classes:
 
 All images are resized to **128 × 128 pixels** before being given to the CNN.
 
+*Dataset Source:* [Kaggle Cat and Dog Dataset](https://www.kaggle.com/datasets/tongpython/cat-and-dog)
+
 ## 🛠️ Technologies Used
 
 - Python
@@ -95,6 +97,15 @@ The trained model was tested on individual unseen cat and dog images.
 
 The model successfully classified the sample cat and dog images correctly.
 
+Prediction Examples: <br>
+| Sample Image | Model Prediction |
+| :---: | :---: |
+| <img width="85" height="55" alt="dog1" src="https://github.com/user-attachments/assets/b3f018e6-4019-4a3b-9b0c-8287b0fc44f8" /> | **Dog** |
+| <img width="55" height="85" alt="cat1" src="https://github.com/user-attachments/assets/66a963ef-e23a-4d84-939b-9e9e922283e2" /> | **Cat** |
+
+
+
+
 ## 📁 Project Structure
 
 ```text
@@ -102,3 +113,16 @@ cat-dog-cnn/
 │
 ├── cat_dog_cnn.ipynb
 └── README.md
+```
+
+
+## 💻 How to Run
+
+1. **Clone the repository:** <br>
+   git clone https://github.com/Sandhya-Bhusal/cat_dog_cnn.git
+
+2. **Install required packages:** <br>
+   ```pip install tensorflow numpy matplotlib seaborn scikit-learn```
+
+3. **Run the model:** <br>
+   Open [cat_dog_cnn.ipynb](Cat_Dog_CNN.ipynb) in Jupyter Notebook or Google Colab.
